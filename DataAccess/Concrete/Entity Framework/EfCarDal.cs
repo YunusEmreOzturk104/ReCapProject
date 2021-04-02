@@ -49,6 +49,16 @@ namespace DataAccess.Concrete.Entity_Framework
          
         }
 
+        public List<Car> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Car> GetById(int carId)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Car entity)
         {
             using (CarRentalContext context = new CarRentalContext())

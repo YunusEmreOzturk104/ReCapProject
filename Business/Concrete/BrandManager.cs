@@ -14,14 +14,18 @@ namespace Business.Concrete
         {
             _brandDal = brandsDal;
         }
-        public void Add(Brands brands)
+      
+
+        public void Add(Brand entity)
         {
-            _brandDal.Add(brands);
+            _brandDal.Add(entity);
         }
 
-        public List<Brands> GetAll()
+     
+
+        public List<Brand> GetAll()
         {
-            return _brandDal.GetAll();
+            return _brandDal.GetAll(); 
         }
     }
 }

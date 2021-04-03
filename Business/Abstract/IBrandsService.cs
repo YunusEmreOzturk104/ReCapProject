@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    interface IBrandsService:IServices<Brands>
+    public interface IBrandsService:IServices<Brand>
     {
     }
 

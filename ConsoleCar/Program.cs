@@ -11,8 +11,8 @@ namespace ConsoleCar
         static void Main(string[] args)
         {
             CarTest();
-            //ColorTest();
-            //BrandTest();
+            ColorTest();
+            BrandTest();
 
         }
 
@@ -42,10 +42,10 @@ namespace ConsoleCar
         private static void CarTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            /*foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetAll())
             {
                 Console.WriteLine(car.Description);
-            }*/
+            }
 
             foreach (var car in carManager.GetCarDetails())
             {
